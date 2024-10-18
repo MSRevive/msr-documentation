@@ -78,6 +78,9 @@ markdown_extensions:
           case: lower
   - admonition
   - pymdownx.details
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_css:
   - stylesheets/extra.css
