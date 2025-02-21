@@ -2,7 +2,7 @@
 **Health:** 700
 
 Regions:
-	[Edana](../Edana.md)
+	[Edana](../../Regions/Edana/Edana.md)
 		Inside front gate, near fountain
 
-![](../../../articleassets/npc/npc-guard.png)
+![](../../articleassets/npc/npc-guard.png)

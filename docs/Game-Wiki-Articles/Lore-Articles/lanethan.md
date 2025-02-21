@@ -1194,10 +1194,6 @@ Instantly, he found himself standing in a dark room, looking at Idemark.
 
 Lanethan suddenly remembered the dream, the dream he had so long ago: he had grabbed Idemark’s face, and wore it as a mask. What kind of help could that possibly bring? Without thinking, Lanethan immediately reached out again and grabbed Idemark, wrapping himself up in his soul.
 
-
-
-## I stared into the golden light...
-
 I stared into the golden light in front of me, the light I knew to be fate itself. Who was I? I was having a hard time remembering, it was as if my head was suddenly empty. Two different voices, each of which I recognized as my own, began to sing:
 
 I once was me
