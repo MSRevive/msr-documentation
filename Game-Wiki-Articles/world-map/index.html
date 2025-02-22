@@ -621,6 +621,18 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    World Map of Leann
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -631,6 +643,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#explanation-of-symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explanation of Symbols
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-world-itself" class="md-nav__link">
+    <span class="md-ellipsis">
+      The World Itself
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -645,6 +694,8 @@
   
     
     
+      
+        
       
         
       
@@ -967,25 +1018,41 @@
 
 <h1 id="world-map-of-leann">World Map of Leann</h1>
 <p>A crude representation of the game world, told through a flowchart.</p>
+<h2 id="explanation-of-symbols">Explanation of Symbols</h2>
 <pre class="mermaid"><code>graph LR
-  edana(Edana) &lt;--&gt; thornlands(Thornlands) &lt;--&gt; sfor(Eswen Mallen) &amp; helena(Helena) &amp; heras(Heras) &amp; mscave(Mscave) &amp; thornnorth(Thornlands North);
+  A{Town Maps Have This Diamond Shape!} --&gt; B(A Map With Easy Challenges to Overcome Looks Like This!) --&gt; C(The Color Indicates the Challenge Level, This is Medium.) --&gt; D(Hard!) --&gt; E(Epic!);
+
+  A:::easy
+  B:::easy
+  C:::medium
+  D:::hard
+  E:::epic
+
+
+  classDef easy fill:#026100
+  classDef medium fill:#b54a02
+  classDef hard fill:#b50202
+  classDef epic fill:#8502b5</code></pre>
+<h2 id="the-world-itself">The World Itself</h2>
+<pre class="mermaid"><code>graph LR
+  edana{Edana} &lt;--&gt; thornlands(Thornlands) &lt;--&gt; sfor(Eswen Mallen) &amp; helena{Helena} &amp; heras(Heras) &amp; mscave(Mscave) &amp; thornnorth(Thornlands North);
   thornnorth &lt;--&gt; msquest(MS Quest) &amp; bloodrose(Bloodrose) &amp; ww1(World Walker Series) &amp; nmthornlands(Nightmare Thornlands) &amp; orcfor(Orkat Forest);
   bloodrose &lt;--&gt; mssnow(MS Snow) &amp; aleyesu(Aleyesu);
-  mscave &lt;--&gt; goblintown(Goblin Town) &amp; gatecity(Gate City);
+  mscave &lt;--&gt; goblintown(Goblin Town) &amp; gatecity{Gate City};
   edana &lt;--&gt; edanasewers(Edana Sewers) &lt;--&gt; chapel(Chapel) &lt;--&gt; isle(Isle);
   sfor &lt;--&gt; challs(Halls of Carthane) &amp; thanatos(Thanatos) &amp; calruin2(Calruin) &amp; bcastle(Haunted Castle);
   challs &lt;--&gt; wicardoven(Wicard Oven);
   helena &lt;--&gt; kprelude(Keledros Prelude) &amp; daragoth(Daragoth) &amp; dtemple(Demon Temple);
-  helena --&gt; oldhelena(Old Helena);
+  helena -- Hidden --&gt; oldhelena(Old Helena);
   kprelude &lt;--&gt; itower(Idemark's Tower) &amp; kboss(Keledros Library) &amp; thekeep(The Keep);
   thekeep &lt;--&gt; dragooncaves(Dragoon Caves);
-  daragoth &lt;--&gt; deralia(Deralia) &lt;--&gt; gcape(Gertenheld Cape) &amp; ocrossing(Ocean Crossing) &amp; dsewers(Deralia Sewers);
+  daragoth &lt;---&gt; deralia{Deralia} &lt;--&gt; gcape(Gertenheld Cape) &amp; ocrossing(Ocean Crossing) &amp; dsewers(Deralia Sewers);
   daragoth &lt;--&gt; mines(Mines) &amp; lowlands(Curse of the Bear God Series);
   daragoth &lt;-- Hidden --&gt; nash(Nashalrath);
   gcape &lt;--&gt; gforest(Gertenheld Forest);
   ocrossing &lt;--&gt; ara(Port Ara) &amp; islesdread(Isles of Dread) &amp; tundra(Tundra);
   mssnow &lt;--&gt; tundra;
-  aleyesu &lt;--&gt; aluhandra(Aluhandra) &lt;--&gt; shadpalace(Shahaddar Palace) &lt;--&gt; sorcvilla(Shahaddar Villa);
+  aleyesu &lt;--&gt; aluhandra(Aluhandra) &lt;--&gt; shadpalace(Shahaddar Palace) &lt;--&gt; sorcvilla{Shahaddar Villa};
   sorcvilla --&gt; aluhandra;
   lodagond(Lodagond);
   thewall(The Wall);
@@ -993,6 +1060,64 @@
   shendereast(Shender East);
   hemlock(Hemlock);
   bloodshrine(Bloodshrine);
+
+  edana:::easy
+  thornlands:::easy
+  sfor:::easy
+  helena:::easy
+  heras:::easy
+  mines:::easy
+  gcape:::easy
+  gforest:::easy
+  mscave:::medium
+  thornnorth:::easy
+  bloodrose:::hard
+  ww1:::medium
+  nmthornlands:::medium
+  orcfor:::hard
+  mssnow:::medium
+  goblintown:::easy
+  gatecity:::easy
+  deralia:::easy
+  daragoth:::medium
+  thekeep:::medium
+  lowlands:::medium
+  nash:::epic
+  lodagond:::hard
+  shadpalace:::epic
+  msquest:::easy
+  thewall:::epic
+  hswamp:::hard
+  edanasewers:::easy
+  chapel:::easy
+  isle:::easy
+  dtemple:::medium
+  challs:::medium
+  thanatos:::medium
+  calruin2:::medium
+  bcastle:::medium
+  oldhelena:::hard
+  sorcvilla:::epic
+  wicardoven:::medium
+  dsewers:::hard
+  tundra:::hard
+  aleyesu:::medium
+  aluhandra:::hard
+  dragooncaves:::medium
+  kprelude:::medium
+  kboss:::medium
+  itower:::hard
+  ocrossing:::medium
+  ara:::medium
+  islesdread:::medium
+  shendereast:::hard
+  hemlock:::hard
+  bloodshrine:::epic
+
+  classDef easy fill:#026100
+  classDef medium fill:#b54a02
+  classDef hard fill:#b50202
+  classDef epic fill:#8502b5
 
   click edana "../Regions/Edana/Edana"
   click thornlands "../Regions/Thornlands/Thornlands"
