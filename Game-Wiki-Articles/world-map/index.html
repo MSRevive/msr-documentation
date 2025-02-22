@@ -969,14 +969,34 @@
 <p>A crude representation of the game world, told through a flowchart.</p>
 <pre class="mermaid"><code>graph LR
   edana(Edana) &lt;--&gt; thornlands(Thornlands) &lt;--&gt; sfor(Eswen Mallen) &amp; helena(Helena) &amp; heras(Heras) &amp; mscave(Mscave) &amp; thornnorth(Thornlands North);
+  thornnorth &lt;--&gt; msquest(MS Quest) &amp; bloodrose(Bloodrose) &amp; ww1(World Walker Series) &amp; nmthornlands(Nightmare Thornlands) &amp; orcfor(Orkat Forest);
+  bloodrose &lt;--&gt; mssnow(MS Snow) &amp; aleyesu(Aleyesu);
+  mscave &lt;--&gt; goblintown(Goblin Town) &amp; gatecity(Gate City);
   edana &lt;--&gt; edanasewers(Edana Sewers) &lt;--&gt; chapel(Chapel) &lt;--&gt; isle(Isle);
   sfor &lt;--&gt; challs(Halls of Carthane) &amp; thanatos(Thanatos) &amp; calruin2(Calruin) &amp; bcastle(Haunted Castle);
   challs &lt;--&gt; wicardoven(Wicard Oven);
   helena &lt;--&gt; kprelude(Keledros Prelude) &amp; daragoth(Daragoth) &amp; dtemple(Demon Temple);
   helena --&gt; oldhelena(Old Helena);
   kprelude &lt;--&gt; itower(Idemark's Tower) &amp; kboss(Keledros Library) &amp; thekeep(The Keep);
+  thekeep &lt;--&gt; dragooncaves(Dragoon Caves);
   daragoth &lt;--&gt; deralia(Deralia) &lt;--&gt; gcape(Gertenheld Cape) &amp; ocrossing(Ocean Crossing) &amp; dsewers(Deralia Sewers);
-  ocrossing &lt;--&gt; ara(Port Ara) &amp; islesdread(Isles of Dread) &amp; tundra(Tundra);</code></pre>
+  daragoth &lt;--&gt; mines(Mines) &amp; lowlands(Curse of the Bear God Series);
+  daragoth &lt;-- Hidden --&gt; nash(Nashalrath);
+  gcape &lt;--&gt; gforest(Gertenheld Forest);
+  ocrossing &lt;--&gt; ara(Port Ara) &amp; islesdread(Isles of Dread) &amp; tundra(Tundra);
+  mssnow &lt;--&gt; tundra;
+  aleyesu &lt;--&gt; aluhandra(Aluhandra) &lt;--&gt; shadpalace(Shahaddar Palace) &lt;--&gt; sorcvilla(Shahaddar Villa);
+  sorcvilla --&gt; aluhandra;
+  lodagond(Lodagond);
+  thewall(The Wall);
+  hswamp(The Hunderswamp);
+  shendereast(Shender East);
+  hemlock(Hemlock);
+  bloodshrine(Bloodshrine);
+
+  click edana "../Regions/Edana/Edana"
+  click thornlands "../Regions/Thornlands/Thornlands"
+  click edanasewers "../Regions/Edana Sewers/Edana Sewers"</code></pre>
 
 
 
