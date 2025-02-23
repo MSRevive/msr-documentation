@@ -53,4 +53,4 @@ Site pages here are prepared in markdown .md format.
 
     * [Get started typing in your browser for free!](https://dillinger.io/)
 
-    * [Here is an example article that I've prepared for the Demon Claws item.](Article-Reference-Material/ingame-article-example.md)
+    * [Here is an example article that I've prepared for the Demon Claws item.](Developer-Knowledge-Articles/Article-Reference-Material/ingame-article-example.md)

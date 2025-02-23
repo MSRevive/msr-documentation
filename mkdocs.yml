@@ -53,6 +53,8 @@ theme:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - tables
+  - pymdownx.blocks.caption
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark

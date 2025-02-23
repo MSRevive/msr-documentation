@@ -31,4 +31,9 @@
 - [Iron Fist Ike, the Armourer](../../NPCs/friendly/Iron%20Fist%20Ike,%20the%20Armourer.md)
 - [Zerkold, the Mayor](../../NPCs/friendly/Zerkold,%20the%20Mayor.md)
 
-![](../../articleassets/edana.png)
+
+
+![Edana Town Square](../../articleassets/edana.png)
+/// caption
+Central Edana
+///
