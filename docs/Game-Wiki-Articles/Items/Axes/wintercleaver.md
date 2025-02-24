@@ -1,4 +1,4 @@
-# Wintercleaver
+# **Wintercleaver**
 
 !!! quote "In-Game Description says:"
     "A gigantic axe of elemental ice."
@@ -23,27 +23,32 @@
 
 The Wintercleaver is a high tier, two-handed axe. It deals Cold damage with all of its abilities, and does a high amount of damage per swing. The axe has the ability to freeze enemies and will apply a Cold DoT on enemies that are struck. This weapon can only be obtained through crafting.
 
-## Abilities
+## **Abilities**
 
-### Damage over Time
+### **Damage over Time**
 
-    * 100% chance to apply on hit
-    * Element: Cold
-    * Damage: Spell Casting Ice level
-    * Duration: 5 seconds
+- 100% chance to apply on hit
 
-### Freezing Burst
+- Element: Cold
+
+- Damage: Spell Casting Ice level
+
+- Duration: 5 seconds
+
+### **Freezing Burst**
 
 Requires 25 Spell Casting Ice and costs 50 mana. A freezing burst emits from the player and any enemies that have less than 2000 health are frozen within a short radius.
 
-### Freeze
+### **Freeze**
 
 Striking the same target four times in succession will cause them to freeze, but only if their current health is below 2000.
 
-## Obtaining
+## **Obtaining**
 
 Can only be crafted.
 
-    * x2 Ice Tomahawk
-    * x2 Torkalath Blade
-    * 50.000 Gold
+- x2 Ice Tomahawk
+
+- x2 Torkalath Blade
+
+- 50.000 Gold
