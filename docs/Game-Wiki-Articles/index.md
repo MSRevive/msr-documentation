@@ -1,3 +1,8 @@
+---
+tags:
+  - Information
+---
+
 # Master Sword: Rebirth Overview
 
 Welcome to the in-game section of the documentation! This page should give you an overview of the game. Here you can find articles about all of the items, NPCs, and maps in the game.

@@ -21,10 +21,15 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - search.share
   name: material
   icon:
     logo: fontawesome/solid/scale-balanced
+
   favicon: assets/MSR.ico
+
   palette:
 
     # Palette toggle for automatic mode
@@ -54,6 +59,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - tables
+  - pymdownx.smartsymbols
   - pymdownx.blocks.caption
   - pymdownx.caret
   - pymdownx.keys
@@ -62,8 +68,14 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       anchor_linenums: true
+      use_pygments: true
+      auto_title: true
+      linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
@@ -95,5 +107,48 @@ extra:
       link: https://msrebirth.net/
     - icon: simple/github
       link: https://github.com/MSRevive
+  
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+    actions:
+      - accept
+      - manage
+      - reject
 
-copyright: "© Team MSRebirth. Goldsource & Half-Life are trademarks of Valve Corporation. Website is under Unlicensed license"
+  #fill out the Google Analytics property and delete this line, along with poundsigns to enable Google Analytics
+  #analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+  #  feedback:
+  #    title: Was this page helpful?
+  #    ratings:
+  #      - icon: material/emoticon-happy-outline
+  #        name: This page was helpful
+  #        data: 1
+  #        note: >-
+  #          Thanks for your feedback!
+  #      - icon: material/emoticon-sad-outline
+  #        name: This page could be improved
+  #        data: 0
+  #        note: >- 
+  #          Thanks for your feedback! Help us improve this page by
+  #          using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+plugins:
+  - search
+  - privacy
+  - tags
+  - meta
+
+copyright: >
+  © Team MSRebirth. Goldsource & Half-Life are trademarks of Valve Corporation. Website is under Unlicensed license -
+  <a href="#__consent">Change cookie settings</a>

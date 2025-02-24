@@ -1,3 +1,8 @@
+---
+tags:
+  - Information
+---
+
 # Player Stats, Skills, & Attacks
 
 There are currently eight skills in Master Sword: Continued, each with varying amounts and types of sub-skills, as well as abilities.

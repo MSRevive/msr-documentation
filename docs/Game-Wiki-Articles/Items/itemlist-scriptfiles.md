@@ -1,3 +1,8 @@
+---
+tags:
+  - Information
+---
+
 # **Item and Scriptfile List**
 
 LAST UPDATE:	NOV2015a

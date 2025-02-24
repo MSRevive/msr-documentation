@@ -1,3 +1,10 @@
+---
+search:
+  exclude: true
+tags:
+  - Information
+---
+
 # World Map of Leann
 
 A crude representation of the game world, told through a flowchart.
