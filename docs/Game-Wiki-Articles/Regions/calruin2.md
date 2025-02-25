@@ -1,8 +1,23 @@
-# Calrian Ruins
+# **Calrian Ruins**
 
-## Description
+!!! quote "Map Description"
+    "This ruined temple is host to a great evil."
+
+!!! info inline end ""
+
+    <p style="text-align: center;">![Calrian Ruins](articleassets/calruin2.jpg)</p>
+
+    <p style="text-align: center;">**Calrian Ruins**</p>
+
+## **Overview**
 
 The ruins of old empires, led into darkness. Now a home of the past ruler and his brother, they are protected by their undead servants bringing death to those who choose to peruse their tomb. But the ruler isn't as dead as the years have said, and plans to invade the lands with an army of undead.
+
+## **Connecting Areas**
+
+- Sfor
+
+## **Riddlemaster Answers**
 
 ??? warning "Spoilers"
 

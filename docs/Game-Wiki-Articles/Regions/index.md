@@ -5,30 +5,35 @@ tags:
   - Information
 ---
 
-# World Map of Leann
+# **Regions**
+
+Learn about the fine details of all the maps(Regions) you can explore throughout the game world, Leann, and beyond.
+
+## **World Map of Leann**
 
 A crude representation of the game world, told through a flowchart.
 
+### **Explanation of Symbols**
 
-## Explanation of Symbols
-``` mermaid
-graph LR
-  A{Town Maps Have This Diamond Shape!} --> B(A Map With Easy Challenges to Overcome Looks Like This!) --> C(The Color Indicates the Challenge Level, This is Medium.) --> D(Hard!) --> E(Epic!);
+??? info "Flowchart Legend"
+    ``` mermaid
+    graph LR
+        A{Town Maps Have This Diamond Shape!} --> B(A Map With Easy Challenges to Overcome Looks Like This!) --> C(The Color Indicates the Challenge Level, This is Medium.) --> D(Hard!) --> E(Epic!);
 
-  A:::easy
-  B:::easy
-  C:::medium
-  D:::hard
-  E:::epic
+        A:::easy
+        B:::easy
+        C:::medium
+        D:::hard
+        E:::epic
 
 
-  classDef easy fill:#026100
-  classDef medium fill:#b54a02
-  classDef hard fill:#b50202
-  classDef epic fill:#8502b5
-```
+        classDef easy fill:#026100
+        classDef medium fill:#b54a02
+        classDef hard fill:#b50202
+        classDef epic fill:#8502b5
+    ```
 
-## The World Itself
+### **The World Itself**
 
 ``` mermaid
 graph LR
@@ -120,3 +125,8 @@ graph LR
   click thornlands "../Regions/Thornlands/Thornlands"
   click edanasewers "../Regions/Edana Sewers/Edana Sewers"
 ```
+
+## **Regions Tags Index**
+
+??? info "List of Region Articles"
+    <!-- material/tags { scope: true } -->

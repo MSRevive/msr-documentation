@@ -25,9 +25,10 @@ The Blood Axe is a mid Tier, two-handed Axe Handling weapon. The weapon is slow 
 
 ### **Vampirism**
 
-The Blood Axe is a mid Tier, two-handed Axe Handling weapon. The weapon is slow and relatively inaccurate, but makes up for it in with its damage and vampire ability.
+If the enemy hit is not undead or otherwise immune to vampire effects, the player heals for the amount of damage the dealt / 3, as long as the resulting HP isn't above max health.
 
 ## **Obtaining**
 
-    * Demontemple after last boss if there are 7 players with at least 20 max health on the server that are not flagged as AFK at the time of opening the chest.
-    * Random the_wall reward.
+- Demontemple after last boss if there are 7 players with at least 20 max health on the server that are not flagged as AFK at the time of opening the chest.
+
+- Random the_wall chest reward.

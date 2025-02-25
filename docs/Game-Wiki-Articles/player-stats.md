@@ -3,14 +3,17 @@ tags:
   - Information
 ---
 
-# Player Stats, Skills, & Attacks
+# **Player Stats, Skills, & Attacks**
+
+## **Overview**
 
 There are currently eight skills in Master Sword: Continued, each with varying amounts and types of sub-skills, as well as abilities.
 
 
 
 === "Swordsmanship"
-    * Swordsmanship is the first skill listed in the Character Info window in Master Sword: Continued. There are unique one-handed and two-handed swords alike. Some of the hardest weapons to obtain, like the [[Unholy Blade]], also exist as swords. Swords can also have abilities that allow the user to cast spells, provided that they have the skill. A few one-handed swords can be swung in different ways depending on your movements, which affects accuracy and damage. Some two-handed swords are capable of blocking some damage. The [[Blood Blade|Blood Blades]] are the only swords that provide a matched set bonus, which allows the user to block.
+
+    Swordsmanship is the first skill listed in the Character Info window in Master Sword: Continued. There are unique one-handed and two-handed swords alike. Some of the hardest weapons to obtain, like the [[Unholy Blade]], also exist as swords. Swords can also have abilities that allow the user to cast spells, provided that they have the skill. A few one-handed swords can be swung in different ways depending on your movements, which affects accuracy and damage. Some two-handed swords are capable of blocking some damage. The Blood Blades are the only swords that provide a matched set bonus, which allows the user to block.
 
     __Strong Hit__
 
@@ -19,7 +22,8 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
 
 === "Martial Arts"
-    * Martial Arts focuses mainly on gauntlet weapons. If a player has nothing in their hands, they can use their [[Bare Fists]] to punch and kick enemies. Early Martial Arts weapons are lackluster, and are completely outshined by the kick once it is unlocked. The [[Demon Claws]] is where this weapon category has much more use, as weapons start to deal dramatically more damage. Martial Arts weapons from thereon tend to have a system in which mana is traded for damage output. With the use of a [[Mana Font Potion]] or [[Sylphiel's Soup]], these weapons are incredibly reliable with high damage output.
+
+    Martial Arts focuses mainly on gauntlet weapons. If a player has nothing in their hands, they can use their [[Bare Fists]] to punch and kick enemies. Early Martial Arts weapons are lackluster, and are completely outshined by the kick once it is unlocked. The [[Demon Claws]] is where this weapon category has much more use, as weapons start to deal dramatically more damage. Martial Arts weapons from thereon tend to have a system in which mana is traded for damage output. With the use of a [[Mana Font Potion]] or [[Sylphiel's Soup]], these weapons are incredibly reliable with high damage output.
 
     __Kick__
 
@@ -33,7 +37,7 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
 === "Small Arms"
 
-    * Small arms are one-handed, short bladed weapons. Most Small Arms are capable of using a Strong Hit and Speed Attack. Low to mid level Small Arms have many varying types and it can be quite difficult to choose which one is more appropriate to use. Some weapons have relatively unique properties.
+    Small arms are one-handed, short bladed weapons. Most Small Arms are capable of using a Strong Hit and Speed Attack. Low to mid level Small Arms have many varying types and it can be quite difficult to choose which one is more appropriate to use. Some weapons have relatively unique properties.
 
     __Strong Hit__
 
@@ -47,7 +51,7 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
 === "Axe Handling"
 
-    * Axes are large, use lots of stamina, and typically have some of the highest base damages in the game. Most two-handed axes become very inaccurate once they enter the mid to high range levels. Though inaccurate, they are capable of dealing some of the highest numbers of damage in a single swipe of any other weapon category. Most axes can utilize a Strong Hit. Most Two-handed axes can utilize a more powerful version of the Strong Hit and can also have a Leap attack. 
+    Axes are large, use lots of stamina, and typically have some of the highest base damages in the game. Most two-handed axes become very inaccurate once they enter the mid to high range levels. Though inaccurate, they are capable of dealing some of the highest numbers of damage in a single swipe of any other weapon category. Most axes can utilize a Strong Hit. Most Two-handed axes can utilize a more powerful version of the Strong Hit and can also have a Leap attack. 
 
     __Strong Hit__
 
@@ -65,7 +69,7 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
 === "Blunt Arms"
 
-    * Blunt Arms focus mainly on hammers, clubs, and maces. They are decently accurate and have good damage output throughout the whole set. Many high tier Blunt Arms are powerful and are usually a must-have. Many Blunt Arms are capable of performing a Strong Hit and a Stun attack.
+    Blunt Arms focus mainly on hammers, clubs, and maces. They are decently accurate and have good damage output throughout the whole set. Many high tier Blunt Arms are powerful and are usually a must-have. Many Blunt Arms are capable of performing a Strong Hit and a Stun attack.
 
     __Strong Hit__
 
@@ -78,12 +82,12 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
 
 === "Archery"
-    * Archery features many bows and crossbows. Many Archery weapons can be used with different arrow types that have various different effects, though they can be used without having any ammo, and instead will use the low damage, unlimited default arrow types, the [[Crude Wooden Arrow]] and the [[Crude Wooden Bolt]] respectively. Archery weapons do not deal damage in the same way that other weapons do; Archery weapons use a multiplier to multiply the amount of damage provided from the type of ammo being used. Upgrades to the multiplier essentially upgrade the damage from all arrows used with that weapon. They are rare though and are mostly found with upgrading crossbows. Archery is usually very easy to get into as it is easy to upgrade from low tier weapons, and it is easy to find arrows that deal high amounts of damage to level Archery easily. Some archery weapons do not let the player change the ammo type at all, as they fire special projectiles. 
+    Archery features many bows and crossbows. Many Archery weapons can be used with different arrow types that have various different effects, though they can be used without having any ammo, and instead will use the low damage, unlimited default arrow types, the [[Crude Wooden Arrow]] and the [[Crude Wooden Bolt]] respectively. Archery weapons do not deal damage in the same way that other weapons do; Archery weapons use a multiplier to multiply the amount of damage provided from the type of ammo being used. Upgrades to the multiplier essentially upgrade the damage from all arrows used with that weapon. They are rare though and are mostly found with upgrading crossbows. Archery is usually very easy to get into as it is easy to upgrade from low tier weapons, and it is easy to find arrows that deal high amounts of damage to level Archery easily. Some archery weapons do not let the player change the ammo type at all, as they fire special projectiles. 
 
 
 
 === "Spell Casting"
-    * Spell Casting has unique sub-skills that only level depending on the type of magic that you use. The sub-skills include, Fire, Ice, Lightning, Divination, and Affliction. There are two hidden sub-skills for Spell Casting that cannot be leveled, though, unfortunately, are still included for the overall Spell Casting level, meaning you have to get 7 levels through any of the sub-skills before you gain a Spell Casting level.
+    Spell Casting has unique sub-skills that only level depending on the type of magic that you use. The sub-skills include, Fire, Ice, Lightning, Divination, and Affliction. There are two hidden sub-skills for Spell Casting that cannot be leveled, though, unfortunately, are still included for the overall Spell Casting level, meaning you have to get 7 levels through any of the sub-skills before you gain a Spell Casting level.
 
     __Fire__
 
@@ -108,7 +112,7 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
 
 === "Pole Arms"
-    * Pole Arms is the most recent skill to be added in Master Sword: Continued. Pole Arms deal with pole weapons that can have numerous abilities. Pole Arms deal more damage the further the player is away while attacking. Large enemies suffer especially to this, because the distance is tested from the player to the lower part of the center of the enemy struck and not the strike point. Pole Arms are capable of doing many different types abilities.
+    Pole Arms is the most recent skill to be added in Master Sword: Continued. Pole Arms deal with pole weapons that can have numerous abilities. Pole Arms deal more damage the further the player is away while attacking. Large enemies suffer especially to this, because the distance is tested from the player to the lower part of the center of the enemy struck and not the strike point. Pole Arms are capable of doing many different types abilities.
 
     __Swipe__
 
@@ -137,3 +141,72 @@ There are currently eight skills in Master Sword: Continued, each with varying a
     __Power Throw__
 
     * Power Throw is similar to the regular "Throw," however, in order to throw the Pole Arm, you must charge it to the red bar, then release.
+
+## **XP Breakdown Per Level**
+
+Experience is earned by defeating enemies, and based on the difficulty of the enemy slain, you are awarded XP to your stats based on what weapons you damaged them with. Once you accrue enough XP in a given substat, it will advance to the next level and require more XP.
+
+The formula to calculate how much XP is needed for a given substat level is:
+
+- (1.248^SubstatLevel) * (4.0 * SubstatLevel) 
+
+### **Levels 1 - 14**
+
+???+ info "Experience vs Level Graph"
+    ``` mermaid
+    ---
+    config:
+        xyChart:
+        themeVariables:
+            xyChart:
+                plotColorPalette: "#a17033, #0dc200"
+                backgroundColor: "#6d8194"
+    ---
+    xychart-beta
+        title "XP Required Per Substat Level 1 - 14"
+        x-axis "Substat Level" 1 --> 14
+        y-axis "Experience"
+        bar [5, 13, 23, 39, 61, 91, 132, 188, 264, 367, 503, 685, 926, 1245]
+        line [5, 13, 23, 39, 61, 91, 132, 188, 264, 367, 503, 685, 926, 1245]
+    ```
+
+
+### **Levels 15 - 30**
+
+??? info "Experience vs Level Graph"
+    ``` mermaid
+    ---
+    config:
+        xyChart:
+        themeVariables:
+            xyChart:
+                plotColorPalette: "#a17033, #0dc200"
+                backgroundColor: "#6d8194"
+    ---
+    xychart-beta
+        title "XP Required Per Substat Level 15 - 30"
+        x-axis "Substat Level" 15 --> 30
+        y-axis "Experience"
+        bar [1665, 2216, 2939, 3883, 5116, 6720, 8806, 11513, 15022, 19562, 25431, 33008, 42778, 55364, 71562, 92389]
+        line [1665, 2216, 2939, 3883, 5116, 6720, 8806, 11513, 15022, 19562, 25431, 33008, 42778, 55364, 71562, 92389]
+    ```
+
+### **Levels 31 - 45**
+
+??? info "Experience vs Level Graph"
+    ``` mermaid
+    ---
+    config:
+        xyChart:
+        themeVariables:
+            xyChart:
+                plotColorPalette: "#a17033, #0dc200"
+                backgroundColor: "#6d8194"
+    ---
+    xychart-beta
+        title "XP Required Per Substat Level 31 - 45"
+        x-axis "Substat Level" 31 --> 45
+        y-axis "Experience"
+        bar [119144, 153489, 197540, 254001, 326316, 418878, 537281, 688649, 882050, 1129025, 1444248, 1846383, 2359150, 3012690, 3845288]
+        line [119144, 153489, 197540, 254001, 326316, 418878, 537281, 688649, 882050, 1129025, 1444248, 1846383, 2359150, 3012690, 3845288]
+    ```
