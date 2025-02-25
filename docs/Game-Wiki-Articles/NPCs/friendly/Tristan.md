@@ -2,7 +2,7 @@
 **Health:** 100
 
 Regions:
-	[Edana](../../Regions/Edana/Edana.md)
+	[Edana](../../Regions/Edana.md)
 		Market square (outside)
 
 ![](../../articleassets/npc/npc-guard.png)

@@ -2,7 +2,7 @@
 **Health:** 60
 
 Regions:
-	[Edana](../../Regions/Edana/Edana.md)
+	[Edana](../../Regions/Edana.md)
 		Inside Clock Tower
 
 Possible items sold:

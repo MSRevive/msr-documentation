@@ -2,7 +2,7 @@
 **Health:** 25
 
 Regions:
-	[Edana](../../Regions/Edana/Edana.md)
+	[Edana](../../Regions/Edana.md)
 		Near fountain, next to cart
 
 

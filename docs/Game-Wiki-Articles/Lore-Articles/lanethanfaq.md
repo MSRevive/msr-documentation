@@ -20,11 +20,6 @@ Well, most of the map descriptions I've already done, but I will answer the seco
 
 ### **Edana**
 
-!!! question "J-M v2.5.5 asks:"
-    Edana: I guess little more needs to be added to the Edana lore/description but I figured I'd put it in this list anyway.
-    The sewers of Edana: Is this map really necessary? The current MS:C version seems kind of dull (no offense meant towards whoever made it).
-
-
 !!! quote "Lanethan"
 
 Edana's lore was written shortly after its inception.  We knew we wanted the players to start in an out of the way, small mountain town.  We added the sewers map later as a low level dungeon alternative to the thornlands as a gameplay area, but it also opened up quite a bit regarding the history of the town from my perspective.  The way I have it right now:
@@ -75,10 +70,6 @@ Hmm, I'm not sure which door you are referring to here.  My connections map has 
 
 
 ### **Helena**
-
-!!! question "J-M v2.5.5 asks:"
-    Helena: This map is in the list for the same reason as Edana, pretty much.
-
 
 !!! quote "Lanethan"
 
@@ -147,10 +138,6 @@ Oh, ye Dwarven city of Olde!  Gate City is one of the largest surviving Dwarven 
 
 
 ### **Goblin Town**
-
-!!! question "J-M v2.5.5 asks:"
-    The goblin town: This map is also in the list for the same reason as Edana.
-
 
 !!! quote "Lanethan"
 

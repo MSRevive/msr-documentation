@@ -5,7 +5,7 @@
 
 !!! info inline end ""
 
-    <p style="text-align: center;">![The Thornlands](../articleassets/thornlands.jpg)</p>
+    <p style="text-align: center;">![The Thornlands](articleassets/thornlands.jpg)</p>
 
     <p style="text-align: center;">**The Thornlands**</p>
 
@@ -14,7 +14,7 @@
 
 ## **Connecting regions:**
 
-- [Edana](../Edana/Edana.md)
+- [Edana](Edana.md)
 
 - Sfor
 

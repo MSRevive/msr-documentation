@@ -2,6 +2,6 @@
 **Health:** 25
 
 Regions:
-	[Edana](../../Regions/Edana/Edana.md)
+	[Edana](../../Regions/Edana.md)
 
 ![](../../articleassets/npc/npc-oldman.png)

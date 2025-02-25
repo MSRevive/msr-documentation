@@ -2,6 +2,6 @@
 **Health:** 1
 
 Regions:
-	[Edana](../../Regions/Edana/Edana.md)
+	[Edana](../../Regions/Edana.md)
 
 ![](../../articleassets/npc/npc-priestofurdual.png)
