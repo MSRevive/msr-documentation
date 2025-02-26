@@ -1,9 +1,19 @@
-**Disposition:** Friendly
-**Health:** 25
+# **Bertold the Fletcher**
 
-Regions:
-	[Edana](../../Regions/Edana.md)
-		Market square (inside)
+!!! info inline end ""
 
+    <p style="text-align: center;">![Bertold the Fletcher](../../articleassets/npc/npc-bertold.png)</p>
 
-![](../../articleassets/npc/npc-bertold.png)
+    <p style="text-align: center;">**Bertold the Fletcher**</p>
+
+    <p style="text-align: center;">Stats</p>
+
+    | Attribute | Info |
+    | :---------- | :---------- |
+    | Disposition | Friendly |
+    | Health | 25 |
+
+## **Regions**
+
+- [Edana](../../Regions/Edana.md)
+	- Market square (inside)

@@ -12,14 +12,17 @@ hide:
 /// caption
 ///
 
-## What is the goal of this website?
+## **What is Master Sword: Rebirth, in 1 sentence?**
+
+Master Sword: Rebirth is a complete modification of Half-Life 1, allowing you to play co-operatively in a rich, darkly inspired fantasy world with persistent characters.
+
+## **What is the goal of this website?**
 
 The goal of this site is to host information regarding all things Master Sword: Rebirth. In-game knowledge, developer tutorials, guides, maps, or anything else that is found to be relevant. Please find links to various ways to interact with Master Sword: Rebirth on the web in the bottom footnote area.
 
 [Join us on Discord! :simple-discord:](https://discord.com/invite/nwJB9EhAN6){ .md-button }
 
-
-## Overview Pages
+## **Overview Pages**
 
 
 <div class="grid cards" markdown>
@@ -44,7 +47,7 @@ The goal of this site is to host information regarding all things Master Sword: 
 
 
 
-## Contributing
+## **Contributing**
 
 This project needs help from the community to be the best that it can! Want to contribute here or write an article? Check out some of the formatting examples in the "Article Reference Material" section, read the official documentation linked, and then edit or prepare your article. Generally, each article in its respective category should follow a similar format to present information. For your convenience, every page of this site has "View/Edit Source Page" buttons in the top-right corner of the document.
 

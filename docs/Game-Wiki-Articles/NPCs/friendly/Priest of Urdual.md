@@ -1,7 +1,18 @@
-**Disposition:** Friendly
-**Health:** 40
+# **Priest of Urdual**
 
-Regions:
-	[Edana](../../Regions/Edana.md)
+!!! info inline end ""
 
-![](../../articleassets/npc/npc-priestofurdual.png)
+    <p style="text-align: center;">![Priest of Urdual](../../articleassets/npc/npc-priestofurdual.png)</p>
+
+    <p style="text-align: center;">**Priest of Urdual**</p>
+
+    <p style="text-align: center;">Stats</p>
+
+    | Attribute | Info |
+    | :---------- | :---------- |
+    | Disposition | Friendly |
+    | Health | 40 |
+
+## **Regions**
+
+- [Edana](../../Regions/Edana.md)

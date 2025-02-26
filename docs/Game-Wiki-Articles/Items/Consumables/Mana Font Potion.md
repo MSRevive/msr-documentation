@@ -30,4 +30,4 @@ Mana Font is a one use potion that, upon drinking, will grant rapid mana regener
 
 ## **Tips**
 
-- Pairing Mana Font with [Demon Claws'](../MartialArts/demon-claws.md) or Infernal Claws' Soul Drain is a devastating synergy to most enemies.
+- Pairing Mana Font with [Demon Claws'](../Martial Arts/demon-claws.md) or Infernal Claws' Soul Drain is a devastating synergy to most enemies.

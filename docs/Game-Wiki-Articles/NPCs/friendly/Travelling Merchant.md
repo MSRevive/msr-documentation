@@ -1,17 +1,17 @@
-# **Krythos the Weaponsmith**
+# **Travelling Merchant**
 
 !!! info inline end ""
 
-    <p style="text-align: center;">![**Krythos the Weaponsmith**](../../articleassets/npc/npc-smith.png)</p>
+    <p style="text-align: center;">![Travelling Merchant](../../articleassets/npc/npc-travellingmerchant.png)</p>
 
-    <p style="text-align: center;">**Krythos the Weaponsmith**</p>
+    <p style="text-align: center;">**Travelling Merchant**</p>
 
     <p style="text-align: center;">Stats</p>
 
     | Attribute | Info |
     | :---------- | :---------- |
     | Disposition | Friendly |
-    | Health | 25 |
+    | Health | 35 |
 
 ## **Regions**
 

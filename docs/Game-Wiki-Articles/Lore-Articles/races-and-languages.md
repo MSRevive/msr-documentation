@@ -17,6 +17,12 @@ They thrive under the corruption and freezing of the Lost Loreldians, are usuall
 They do not have their own language, and are united under the sanctioned power of the Demigod Shadahar. Fate has it said that he infused his essence with a lost loreldian to become a living deity for the Shadahar Orcs, dominating the Aluhundara Desert with Lightning Elementals and the so forth. These Shadahar Orcs are more intelligently inclined to learn other races languages, than their other orcish counterparts.
 
 
+## **Borsch Orcs**
+
+(green skinned, swamp dwelling orcs)
+
+Usually hostile, they can primarily be found living in the Hunderswamp.
+
 
 ## **Generic Orcs**
 

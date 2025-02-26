@@ -36,4 +36,4 @@ Though not nearly as potent as Soul Drain, Speed Attack can still manage to get 
 
 ## Tips
 
-* Sylphiel's Soup is an easy way to maintain mana while using Soul Steal without having to acquire a Mana Font Potion.
+* [Sylphiel's Soup](../Consumables/Sylphielsoup.md) is an easy way to maintain mana while using Soul Drain without having to acquire a [Mana Font Potion](<../Consumables/Mana Font Potion.md>).

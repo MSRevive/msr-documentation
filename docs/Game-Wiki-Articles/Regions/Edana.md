@@ -32,7 +32,7 @@ Edana is the map all Adventurers will begin on.
 ### **Clock Tower:**
 - [Hartold the Mage](../NPCs/friendly/Hartold%20the%20Mage.md)
 ### **Tavern:**
-- [Sylphiel, the waitress](../NPCs/friendly/Sylphiel,%20the%20waitress.md)
+- [Sylphiel, the waitress](../NPCs/friendly/Sylphiel.md)
 - [Sumdale (Patron)](../NPCs/friendly/Sumdale%20(Patron).md)
 - [Urduaf](../NPCs/friendly/Urduaf.md)
 ### **Merchant square:**

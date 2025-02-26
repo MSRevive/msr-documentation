@@ -1,8 +1,19 @@
-**Disposition:** Friendly
-**Health:** 25
+# **Edric of Galat's Storage**
 
-Regions:
-	[Edana](../../Regions/Edana.md)
-		Market square (inside)
+!!! info inline end ""
 
-![](../../articleassets/npc/npc-edric.png)
+    <p style="text-align: center;">![Edric](../../articleassets/npc/npc-edric.png)</p>
+
+    <p style="text-align: center;">**Edric of Galat's Storage**</p>
+
+    <p style="text-align: center;">Stats</p>
+
+    | Attribute | Info |
+    | :---------- | :---------- |
+    | Disposition | Friendly |
+    | Health | 25 |
+
+## **Regions**
+
+- [Edana](../../Regions/Edana.md)
+	- Market square (inside)

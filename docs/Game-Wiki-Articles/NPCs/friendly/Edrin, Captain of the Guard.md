@@ -1,8 +1,19 @@
-**Disposition:** Friendly
-**Health:** 700
+# **Edrin, Captain of the Guard**
 
-Regions:
-	[Edana](../../Regions/Edana.md)
-		Inside front gate, near fountain
+!!! info inline end ""
 
-![](../../articleassets/npc/npc-guard.png)
+    <p style="text-align: center;">![**Edrin, Captain of the Guard**](../../articleassets/npc/npc-guard.png)</p>
+
+    <p style="text-align: center;">**Edrin, Captain of the Guard**</p>
+
+    <p style="text-align: center;">Stats</p>
+
+    | Attribute | Info |
+    | :---------- | :---------- |
+    | Disposition | Friendly |
+    | Health | 700 |
+
+## **Regions**
+
+- [Edana](../../Regions/Edana.md)
+	- Inside front gate, near fountain

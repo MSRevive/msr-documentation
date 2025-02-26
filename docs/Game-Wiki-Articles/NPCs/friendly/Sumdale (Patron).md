@@ -1,10 +1,21 @@
-**Disposition:** Friendly
-**Health:** 30
+# **Sumdale (Patron)**
 
-Regions:
-	[Edana](../../Regions/Edana.md)
-		Inside Tavern
+!!! info inline end ""
+
+    <p style="text-align: center;">![Sumdale (Patron)](../../articleassets/npc/npc-sumdale.png)</p>
+
+    <p style="text-align: center;">**Sumdale (Patron)**</p>
+
+    <p style="text-align: center;">Stats</p>
+
+    | Attribute | Info |
+    | :---------- | :---------- |
+    | Disposition | Friendly |
+    | Health | 30 |
 
 Known as "Patron" until he introduces himself.
 
-![](../../articleassets/npc/npc-sumdale.png)
+## **Regions**
+
+- [Edana](../../Regions/Edana.md)
+	- Inside Tavern

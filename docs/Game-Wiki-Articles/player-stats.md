@@ -7,13 +7,13 @@ tags:
 
 ## **Overview**
 
-There are currently eight skills in Master Sword: Continued, each with varying amounts and types of sub-skills, as well as abilities.
+There are currently eight skills in Master Sword: Rebirth, each with varying amounts and types of sub-skills, as well as abilities.
 
 
 
 === "Swordsmanship"
 
-    Swordsmanship is the first skill listed in the Character Info window in Master Sword: Continued. There are unique one-handed and two-handed swords alike. Some of the hardest weapons to obtain, like the [[Unholy Blade]], also exist as swords. Swords can also have abilities that allow the user to cast spells, provided that they have the skill. A few one-handed swords can be swung in different ways depending on your movements, which affects accuracy and damage. Some two-handed swords are capable of blocking some damage. The Blood Blades are the only swords that provide a matched set bonus, which allows the user to block.
+    Swordsmanship is the first skill listed in the Character Info window in Master Sword: Rebirth. There are unique one-handed and two-handed swords alike. Some of the hardest weapons to obtain, like the [[Unholy Blade]], also exist as swords. Swords can also have abilities that allow the user to cast spells, provided that they have the skill. A few one-handed swords can be swung in different ways depending on your movements, which affects accuracy and damage. Some two-handed swords are capable of blocking some damage. The Blood Blades are the only swords that provide a matched set bonus, which allows the user to block.
 
     __Strong Hit__
 
@@ -112,7 +112,7 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
 
 === "Pole Arms"
-    Pole Arms is the most recent skill to be added in Master Sword: Continued. Pole Arms deal with pole weapons that can have numerous abilities. Pole Arms deal more damage the further the player is away while attacking. Large enemies suffer especially to this, because the distance is tested from the player to the lower part of the center of the enemy struck and not the strike point. Pole Arms are capable of doing many different types abilities.
+    Pole Arms is the most recent skill to be added in Master Sword: Rebirth. Pole Arms deal with pole weapons that can have numerous abilities. Pole Arms deal more damage the further the player is away while attacking. Large enemies suffer especially to this, because the distance is tested from the player to the lower part of the center of the enemy struck and not the strike point. Pole Arms are capable of doing many different types abilities.
 
     __Swipe__
 
@@ -150,7 +150,7 @@ The formula to calculate how much XP is needed for a given substat level is:
 
 - (1.248^SubstatLevel) * (4.0 * SubstatLevel) 
 
-### **Levels 1 - 14**
+**Levels 1 - 14**
 
 ???+ info "Experience vs Level Graph"
     ``` mermaid
@@ -171,7 +171,7 @@ The formula to calculate how much XP is needed for a given substat level is:
     ```
 
 
-### **Levels 15 - 30**
+**Levels 15 - 30**
 
 ??? info "Experience vs Level Graph"
     ``` mermaid
@@ -191,7 +191,7 @@ The formula to calculate how much XP is needed for a given substat level is:
         line [1665, 2216, 2939, 3883, 5116, 6720, 8806, 11513, 15022, 19562, 25431, 33008, 42778, 55364, 71562, 92389]
     ```
 
-### **Levels 31 - 45**
+**Levels 31 - 45**
 
 ??? info "Experience vs Level Graph"
     ``` mermaid

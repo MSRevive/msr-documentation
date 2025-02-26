@@ -1,8 +1,19 @@
-**Disposition:** Friendly
-**Health:** 20
+# **Merchant Square Keeper**
 
-Regions:
-	[Edana](../../Regions/Edana.md)
-		Market square (outside)
+!!! info inline end ""
 
-![](../../articleassets/npc/npc-merchantsquarekeeper.png)
+    <p style="text-align: center;">![**Merchant Square Keeper**](../../articleassets/npc/npc-merchantsquarekeeper.png)</p>
+
+    <p style="text-align: center;">**Merchant Square Keeper**</p>
+
+    <p style="text-align: center;">Stats</p>
+
+    | Attribute | Info |
+    | :---------- | :---------- |
+    | Disposition | Friendly |
+    | Health | 20 |
+
+## **Regions**
+
+- [Edana](../../Regions/Edana.md)
+	- Market square (outside)
