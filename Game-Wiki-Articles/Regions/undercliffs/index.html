@@ -85,7 +85,16 @@
       
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -1269,7 +1278,7 @@
 <p>"High atop the cliffs and craggy bluffs of the Underworld, danger and mystery await..."</p>
 </div>
 <div class="admonition info inline end">
-<p><p style="text-align: center;"><img alt="Undercliffs Boss Chamber" src="../articleassets/UndercliffsBossChamber.webp" /></p></p>
+<p><p style="text-align: center;"><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Undercliffs Boss Chamber" src="../articleassets/UndercliffsBossChamber.webp" /></a></p></p>
 <p><p style="text-align: center;"><strong>Undercliffs, Boss Chamber</strong></p></p>
 </div>
 <h2 id="overview"><strong>Overview</strong></h2>
@@ -1303,13 +1312,13 @@
 <thead>
 <tr>
 <th><strong>Color</strong></th>
-<th><img alt="Red Crystal" src="../articleassets/CrystalRed.webp" /></th>
-<th><img alt="Orange Crystal" src="../articleassets/CrystalOrange.webp" /></th>
-<th><img alt="Yellow Crystal" src="../articleassets/CrystalYellow.webp" /></th>
-<th><img alt="Green Crystal" src="../articleassets/CrystalGreen.webp" /></th>
-<th><img alt="Pink Crystal" src="../articleassets/CrystalPink.webp" /></th>
-<th><img alt="Purple Crystal" src="../articleassets/CrystalPurple.webp" /></th>
-<th><img alt="Blue Crystal" src="../articleassets/CrystalBlue.webp" /></th>
+<th><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Red Crystal" src="../articleassets/CrystalRed.webp" /></a></th>
+<th><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Orange Crystal" src="../articleassets/CrystalOrange.webp" /></a></th>
+<th><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Yellow Crystal" src="../articleassets/CrystalYellow.webp" /></a></th>
+<th><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Green Crystal" src="../articleassets/CrystalGreen.webp" /></a></th>
+<th><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Pink Crystal" src="../articleassets/CrystalPink.webp" /></a></th>
+<th><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Purple Crystal" src="../articleassets/CrystalPurple.webp" /></a></th>
+<th><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Blue Crystal" src="../articleassets/CrystalBlue.webp" /></a></th>
 </tr>
 </thead>
 <tbody>
@@ -1536,5 +1545,19 @@
       <script src="../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">document.querySelectorAll('.glightbox').forEach(function(element) {
+    try {
+        var img = element.querySelector('img');
+        if (img && img.src) {
+            element.setAttribute('href', img.src);
+        } else {
+            console.log('No img element with src attribute found');
+        }
+    } catch (error) {
+        console.log('Error:', error);
+    }
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

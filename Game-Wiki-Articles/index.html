@@ -85,7 +85,16 @@
       
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -954,14 +963,20 @@
 <details class="info" open="open">
 <summary>Click or tap to Open/Close</summary>
 <p>Master Sword started out as a simple first person role playing total conversion mod for Half Life released in the late 1990s. It sported few maps and very limited game functionality. Yet, it set a solid precedence for what was to come and what was possible with the engine. Its ambitions were high but were limited by the technology of its time. Master Sword: Continued, simply put, was a continuation of that project with a different set of developers and a wider reaching community, releasing in the mid-to-late 2000s. The scope of the maps got wider, more items introduced, and more mechanics implemented. With time, however, the game became more unstable and as the community contributors aged, so did the mod. Eventually, development officially ceased in the mid 2010s. The source code for the game was released for whomsoever to pick up the torch and continue onward.</p>
-<p><img alt="Image title" src="articleassets/Master_Sword.jpg" /></p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="articleassets/Master_Sword.jpg" /></a></p>
+<figcaption></figcaption>
+</figure>
 <p>That’s what leads us here; to Master Sword: Rebirth. Think of it as “Master Sword: Continued: Continued” where the scope of the game has widened, more features introduced, and a much, much more stable gaming experience all working on the same game engine that started this entire project over 20 years ago. Having started up in the early 2020s, Master Sword: Rebirth seeks to recapture that old school gaming magic that has seemingly been lost to time. The modification focuses on an "MMO-lite" design with persistent characters across an in-game network called "FuzzNet" or "FN" which will save your characters' progress between servers that are FN enabled.</p>
 </details>
 <h3 id="what-happened-to-msc-mss-and-the-msremakecom-forums">What happened to MS:C, MS:S, and the msremake.com forums?</h3>
 <details class="info">
 <summary>Click or tap to Open/Close</summary>
 <p>Throughout Master Sword: Continued’s development, many teams have branched off to create their own versions on different engines. Be it the Source engine, Unity, or even Unreal; everyone involved realizes that Master Sword has a certain charm to it and wished to see it furthered technologically alongside other games. Unfortunately, as these are all labors of love, none else have come to fruition. </p>
-<p><img alt="Image title" src="articleassets/msremake_circa_2008.png" /></p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" src="articleassets/msremake_circa_2008.png" /></a></p>
+<figcaption></figcaption>
+</figure>
 <p>Due to increasing hosting costs of the msremake.com website and subsequent forums, a third party host was utilized to keep both the game servers and the websites up and running. Eventually, so too the host would disappear to time. With it, the websites and game servers would lapse with no way to bring them back online.</p>
 </details>
 <h3 id="why-the-change-to-rebirth-and-what-all-is-changing">Why the change to Rebirth, and what all is changing?</h3>
@@ -1145,5 +1160,19 @@
       <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">document.querySelectorAll('.glightbox').forEach(function(element) {
+    try {
+        var img = element.querySelector('img');
+        if (img && img.src) {
+            element.setAttribute('href', img.src);
+        } else {
+            console.log('No img element with src attribute found');
+        }
+    } catch (error) {
+        console.log('Error:', error);
+    }
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
