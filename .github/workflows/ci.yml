@@ -28,7 +28,7 @@ jobs:
 
       - name: Deploy
         run: |
-          apt-get install pngquant
+          sudo apt-get -y install pngquant
           pip install mkdocs-material
           pip install mkdocs-material[imaging]
           mkdocs gh-deploy
