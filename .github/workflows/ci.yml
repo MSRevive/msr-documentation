@@ -31,4 +31,5 @@ jobs:
           sudo apt-get -y install pngquant
           pip install mkdocs-material
           pip install mkdocs-material[imaging]
+          pip install mkdocs-glightbox
           mkdocs gh-deploy

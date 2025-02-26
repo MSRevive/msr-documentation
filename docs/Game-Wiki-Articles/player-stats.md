@@ -27,7 +27,7 @@ There are currently eight skills in Master Sword: Continued, each with varying a
 
     __Kick__
 
-    * Requires level 5. The kick is used for the first charge of all Martial Arts weapons, including your Bare Fists. It has a base damage of 200, and a 90% chance to hit. If the player is at least level 10 and the target has a max health of less than 1,250, they will be pushed. If the player is at least level 20, it can stun enemies that they kick. If the enemy has more than 1000 health, there's a chance for the stun to fail equal to <math>{1 \over targetHealth * 0.01}</math>. If the stun succeeds, the target is stunned for a duration of <math>{level \over 3}</math>seconds, with a maximum of 20 seconds. Martial Arts weapons do not affect the kick's stats at all.
+    * Requires level 5. The kick is used for the first charge of all Martial Arts weapons, including your Bare Fists. It has a base damage of 200. If the player is at least level 10 and the target has a max health of less than 1,250, they will be pushed. If the player is at least level 20, it can stun enemies that they kick. If the enemy has more than 1000 health, there's a chance for the stun to fail equal to <math>{1 \over targetHealth * 0.01}</math>. If the stun succeeds, the target is stunned for a duration of <math>{level \over 3}</math>seconds, with a maximum of 20 seconds. Martial Arts weapons do not affect the kick's stats at all.
 
     __Dodge__
 
