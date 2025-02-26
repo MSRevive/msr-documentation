@@ -145,9 +145,12 @@ extra:
 
 plugins:
   - search
-  - privacy
+  - privacy:
+      enabled: !ENV [CI, false]     # requires external google links, disable on local build
   - tags
   - meta
+  - social:
+      enabled: !ENV [CI, false]      # requires image processing libraries, disable on local build
 
 copyright: >
   © Team MSRebirth. Goldsource & Half-Life are trademarks of Valve Corporation. Website is under Unlicensed license -
