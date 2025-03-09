@@ -1,7 +1,7 @@
 # Hoarfrost Blade
 
 !!! quote "In-Game Description says:"
-    "XXX"
+    "A gigantic blade of pure elemental ice"
 
 !!! info inline end ""
 
@@ -13,11 +13,11 @@
 
     | Base Skill | Swords |
     | :---------- | :---------- |
-    | Level to Wield | ?  |
-    | Damage Type | ? |
-    | Base Damage | ? |
-    | 1st Charge | ? |
-    | 2nd Charge | ? |
-    | Alt. Ability | ? |
+    | Level to Wield | 20  |
+    | Damage Type | Cold |
+    | Base Damage | 350 |
+    | 1st Charge | Strong Hit |
+    | 2nd Charge | Ice Lance |
+    | Alt. Ability | Ice Circle |
 
 Describe the sword.
