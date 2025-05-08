@@ -28,6 +28,7 @@ jobs:
 
       - name: Deploy
         run: |
+          sudo apt-get -y install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
           sudo apt-get -y install pngquant
           pip install mkdocs-material
           pip install mkdocs-material[imaging]
