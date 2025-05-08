@@ -156,7 +156,7 @@ plugins:
       cards_layout_options:
         font_family: "Macondo Swash Caps"
         background_image: "docs/assets/socialcard.png"
-        background_color: transparent
+#        background_color: transparent
   - glightbox
 
 copyright: >
