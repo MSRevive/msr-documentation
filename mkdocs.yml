@@ -107,6 +107,8 @@ extra:
       link: https://msrebirth.net/
     - icon: simple/github
       link: https://github.com/MSRevive
+    - icon: simple/trello
+      link: https://trello.com/b/q8gWAiWT
   
   consent:
     title: Cookie consent
@@ -153,7 +155,8 @@ plugins:
       enabled: !ENV [CI, false]      # requires image processing libraries, disable on local build
       cards_layout_options:
         font_family: "Macondo Swash Caps"
-        background_color: "#a17033"
+        background_image: "docs/assets/socialcard.png"
+        background_color: "transparent"
   - glightbox
 
 copyright: >
