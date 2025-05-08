@@ -155,8 +155,7 @@ plugins:
       enabled: !ENV [CI, false]      # requires image processing libraries, disable on local build
       cards_layout_options:
         font_family: "Macondo Swash Caps"
-        background_image: "docs/assets/socialcard.png"
-#        background_color: transparent
+        background_image: layouts/background.png
   - glightbox
 
 copyright: >
