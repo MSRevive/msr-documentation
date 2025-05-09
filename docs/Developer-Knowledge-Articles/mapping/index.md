@@ -14,7 +14,7 @@ New mappers and their maps are always welcome to see. Before you undertake a lar
 
 If you would like to edit or remaster an old map, that is also something we encourage people to do! Remastering does not have to be a very laborious process, it can include:
 
-- Fixing map lighting, and typically remaking the lost light.rad file as an info_texlights entity.
+- Fixing map lighting, and typically remaking the lost lights.rad file as an info_texlights entity.
 
 - Removing potential copyright issues found in used music, textures, models, or sprites.
 
