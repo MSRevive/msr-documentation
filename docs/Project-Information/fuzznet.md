@@ -1,6 +1,6 @@
 # FuzzNet (FN)
 
-FuzzNet is a central database that game servers can be granted access to that store a player's character data across all FN servers. This is to allow the game to have more of a MMO feel and allow players to connect to different servers without worry about if they can access their characters or not.
+FuzzNet (Nexus) is a central database that game servers can be granted access to that store a player's character data across all FN servers. This is to allow the game to have more of a MMO feel and allow players to connect to different servers without worry about if they can access their characters or not.
 
 The FN database/server is managed by the MSR staff team.
 
@@ -23,11 +23,11 @@ Currently, we are not accepting requests. In the future all requests will be han
 
 ## Character transfers
 
-Currently not available due to MSR being in beta.
+Character transfers are handled by MSR staff and can be requested on our Discord server.
 
 ## Rollbacks
 
-~~Rollbacks are handled by MSR staff and can be requested on our Discord server.~~ Currently not available due to MSR being in beta.
+Rollbacks are handled by MSR staff and can be requested on our Discord server.
 
 ## History
 
