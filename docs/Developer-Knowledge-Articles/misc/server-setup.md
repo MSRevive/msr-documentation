@@ -29,19 +29,21 @@ Source: [https://developer.valvesoftware.com/wiki/Half-Life_Dedicated_Server](ht
 
 The default server host port for pretty much all Valve games is 27015, but if you intend to run multiple servers, you may want to open a range of ports such as 27015-270XX, to give yourself some room.  
 
-If you've never port forwarded before, you'll want to figure out the brand and model name of your router, then track it down on [PortForward.com](https://portforward.com/) to find a guide tailored to your specific setup.  
+If you've never port forwarded before, you'll want to figure out the brand and model name of your router, then track it down on [PortForward.com](https://portforward.com/) to find a guide tailored to your specific setup.
+
+If port forwarding isn't working you might be behind a CGNAT which disallows port forwarding.
 
 ## Server.cfg
 The server.cfg file can be found in msrebirth/msr/server.cfg, it should be mostly good to go by default, but you will at least need to scroll to the bottom to enable central server connection, and put in the address you were given when you were whitelisted as a host.  
 
 Commands you may want to look at:  
-- hostname - You'll want to remove this if running multiple servers, as you'll have to define the hostname via launch parameters.  
-- rcon_password - This will allow you to login to the server and send admin commands in-game, worth setting just in case.  
-- msvote_map_enable - Turn this off if you want an "immersive experience."  
-- ms_admin_contact - I dunno that anybody even knows this exists, but this will tell them who to whine to by typing "contact" in console  
-- ms_chatlog - **Turn this on.** It doesn't work at the moment, but it will.  
-- ms_timelimit - This will reset the server to Edana when it's empty for a period of time, though the default should be fine. (There's two of these in the default config, remove one of them. Dunno why.)  
-- ms_reset_if_empty - This will reboot the server whenever it resets to Edana via the timelimit. Stuff gets wonky when servers stay up too long, so this helps.  
+- ``ostname`` - You'll want to remove this if running multiple servers, as you'll have to define the hostname via launch parameters.  
+- ``rcon_password`` - This will allow you to login to the server and send admin commands in-game, worth setting just in case.  
+- ``msvote_map_enable`` - Turn this off if you want an "immersive experience."  
+- ``ms_admin_contact`` - I dunno that anybody even knows this exists, but this will tell them who to whine to by typing "contact" in console  
+- ``ms_chatlog`` - **Turn this on.** It doesn't work at the moment, but it will.  
+- ``ms_timelimit`` - This will reset the server to Edana when it's empty for a period of time, though the default should be fine. (There's two of these in the default config, remove one of them. Dunno why.)  
+- ``ms_reset_if_empty`` - This will reboot the server whenever it resets to Edana via the timelimit. Stuff gets wonky when servers stay up too long, so this helps.  
 
 #### Commands so the server doesn't ban everyone constantly
 ReHLDS has a built-in command spam filter that will auto-ban anybody sending too many commands to the server. Trouble is, Master Sword sends a lot of commands from the client to the server, so it is guaranteed to ban someone pretty quickly. Paste these at the bottom of your msr/server.cfg to prevent this:
@@ -53,8 +55,16 @@ ReHLDS has a built-in command spam filter that will auto-ban anybody sending too
 > sv_rehlds_stringcmdrate_burst_punish -1  
 > sv_rehlds_stringcmdrate_avg_punish -1  
 > sv_rehlds_movecmdrate_burst_punish -1  
-> sv_rehlds_movecmdrate_avg_punish -1  
+> sv_rehlds_movecmdrate_avg_punish -1
 
+## Server Startup Command
+#### Windows
+``start "" hlds.exe -console -noipx -insecure -num_edicts 2048 -heapsize 131072 -game msr +maxplayers 10 -port <port> -norestart -map edana``
+
+#### Linux
+``./hlds_linux -console -noipx -insecure -num_edicts 2048 -heapsize 131072 -game msr -map edana +maxplayers 10 -port <port>``
+
+There's a few other stuff you can do for the Linux one depending if you're running it in a container like Docker. For example if using something like Pterodactyl or Pelican panels you'd probably want to use these arguements too ``+ip 0.0.0.0 -strictportbind -norestart``
 
 ## Auto-restarter script
 You can launch ReHLDS using the executable, but launching via command line will allow you to set additional parameters. Greatguys has made a very useful [auto-restarter batch file](https://github.com/MSRevive/website/files/10714271/Restarter.zip) which includes the launch command along with a few default parameters you will want for MSR. Just drop this script into the base msrebirth folder, where the hlds.exe is located. It will launch and bind to ReHLDS, rebooting it whenever it disappears/crashes, and it will crash.  
